@@ -11,7 +11,7 @@ function BarreRecherche() {
 
 //fonction hadler pour l'event onChange input recherche
 function rechercheHandler(e){
-  if(e.target.value.trim()){
+  if(e.target.value.trim() || e.target.value===""){
     setValeurRecherche(e.target.value)
   }
 }
@@ -26,13 +26,7 @@ useEffect(()=>{
             <Search className="icon-Search"/>
           </div>
         </div>
-        <Autocomplete
-        
-        id="combo-box-demo"
-        options={top100Films}
-        sx={{ width: "100%" }}
-        renderInput={(params) => <TextField {...params} label="Movie" />}
-      />
+        <input type="text"  className="form-control" onchange={rechercheHandler} value={valeurRecherche}/>
                 <div className="input-group-prepend">
           <Button className="btn-Search" disabled={valeurRecherche==""}>Recherce</Button>
         </div>
