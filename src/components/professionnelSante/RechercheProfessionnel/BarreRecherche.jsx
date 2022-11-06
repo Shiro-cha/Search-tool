@@ -15,7 +15,7 @@ function rechercheHandler(e){
   }
 }
 useEffect(()=>{
-
+  console.log(valeurRecherche);
 },[valeurRecherche])
   return (
     <div className="container">
