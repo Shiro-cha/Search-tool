@@ -1,4 +1,10 @@
-.btn-Search{
+.icon-Search{
   background: none;
   color:#606060;
+}
+.bg-none{
+  background: none !important;
+}
+.btn-Search{
+  background-color: #1b7895 !important;
 }

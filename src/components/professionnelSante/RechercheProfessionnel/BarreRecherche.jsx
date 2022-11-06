@@ -5,15 +5,15 @@ import Button from "@mui/material/Button"
 function BarreRecherche() {
   return (
     <div className="container">
-      <div className="input-group">
+      <div className="input-group mt-3">
         <div className="input-group-prepend bg-none">
           <div className="input-group-text">
-            <Search className="btn-Search"/>
+            <Search className="icon-Search"/>
           </div>
         </div>
         <input type="text" className="form-control" name="" value="" placeholder="Nom, spécialité, établissement..."/>
         <div className="input-group-prepend">
-          <Button>Recherce</Button>
+          <Button className="btn-Search">Recherce</Button>
         </div>
       </div>
     </div>
