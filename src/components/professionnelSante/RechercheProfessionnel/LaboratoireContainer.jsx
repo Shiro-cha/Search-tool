@@ -11,7 +11,7 @@ function LaboratoireContainer() {
             <div className="col-sm-5">
               <div className="row">
               <div className="col-sm-3">
-              MyLogo
+              <div className="my-logo">MyLogo</div>
               </div>
               <div className="col-sm-9">
               <h4 className="nom-etablissement">Aphalbo laboratory</h4>
@@ -26,7 +26,7 @@ function LaboratoireContainer() {
               </div>
             </div>
             <div className="col-sm-7">
-            Details Disponibilité here
+
             </div>
           </div>
         </Box>
