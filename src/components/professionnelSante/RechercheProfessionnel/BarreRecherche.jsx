@@ -21,7 +21,7 @@ function rechercheHandler(e){
             <Search className="icon-Search"/>
           </div>
         </div>
-        <nput type="text" className="form-control" value={valeurRecherche} onChange={rechercheHandler} name="recherche"  placeholder="Nom, spécialité, établissement..."/>
+        <nput type="text" className="form-control"  onChange={rechercheHandler} name="recherche"  placeholder="Nom, spécialité, établissement..."/>
         <div className="input-group-prepend">
           <Button className="btn-Search">Recherce</Button>
         </div>
