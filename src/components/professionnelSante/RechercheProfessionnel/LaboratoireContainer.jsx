@@ -6,7 +6,7 @@ import "./LaboratoireContainer.css"
 function LaboratoireContainer() {
   return (
     <div className="container">
-        <Box className="shadow w-90">
+        <Box className="shadow w-90 p-5">
           <div className="row">
             <div className="col-sm-6">
               <div className="row">
