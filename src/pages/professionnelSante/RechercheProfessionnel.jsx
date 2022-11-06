@@ -6,14 +6,14 @@ import LaboratoireContainer from "../../components/professionnelSante/RechercheP
 
 function RechercheProfessionnel() {
   return (
-    <div style={{background:"#dddddd"}}>
+    <div>
     <Header/>
-    <BarreRecherche style={{background:"#ffffff"}}/>
+    <BarreRecherche />
     <FilterPar/>
     <br/><br/><br/>
     <Typography sx={{textAlign:"center",fontWeight:"bold",color:"#606060"}}>Trouver un laboratoire et réserver en ligne</Typography>
     <br/>
-    <LaboratoireContainer style={{background:"#ffffff"}}/>
+    <LaboratoireContainer />
     </div>
   );
 }
