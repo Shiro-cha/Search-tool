@@ -16,7 +16,9 @@ function LaboratoireContainer() {
               info laboratoire here
               </div>
               <div className="col-sm-8">
-              <Button variant="contained" sx={{width:"100%",background:"#1b7895"}}>Prendre rendez-vous</Button>
+              <Button variant="contained" sx={{width:"100%",background:"#1b7895","&:hover":{
+                background:"#1b7895"
+              }}}>Prendre rendez-vous</Button>
               </div>
               </div>
             </div>
