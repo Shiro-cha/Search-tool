@@ -10,10 +10,12 @@ function LaboratoireContainer() {
             <div className="col-sm-6">
               <div className="row">
               <div className="col-sm-6">
-              Logo laboratoire here
+              MyLogo
               </div>
               <div className="col-sm-6">
-              info laboratoire here
+              <h4 className="nom-etablissement">Aphalbo laboratory</h4>
+              <p className="type-etablissement">Laboratoire</p>
+              <p className="address-etablissement">Lot 3TER Ambohidratrimo</p>
               </div>
               <div className="col-sm-8">
               <Button variant="contained" sx={{width:"100%",background:"#1b7895","&:hover":{
