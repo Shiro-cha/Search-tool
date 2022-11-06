@@ -10,6 +10,7 @@ function FilterPar() {
   const [selectLangue,setSelectLangue] = useState(false)
   const [anchorEl,setAnchorEl]=useState(null)
   function handleClick(e){
+    console.log(e.currentTarget.id)
     if(e.currentTarget.id==="disponibilite"){
       setAnchorEl(null)
       if(selectDisponibilte){
