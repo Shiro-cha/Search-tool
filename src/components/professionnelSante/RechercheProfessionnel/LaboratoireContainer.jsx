@@ -10,10 +10,10 @@ function LaboratoireContainer() {
           <div className="row">
             <div className="col-sm-6">
               <div className="row">
-              <div className="col-sm-6">
+              <div className="col-sm-2">
               MyLogo
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-12">
               <h4 className="nom-etablissement">Aphalbo laboratory</h4>
               <p className="type-etablissement">Laboratoire</p>
               <p className="address-etablissement">Lot 3TER Ambohidratrimo</p>
