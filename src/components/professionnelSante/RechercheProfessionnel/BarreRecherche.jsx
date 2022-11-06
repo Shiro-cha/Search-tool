@@ -11,7 +11,7 @@ function BarreRecherche() {
             <Search className="icon-Search"/>
           </div>
         </div>
-        <input type="text" className="form-control" name="" value="" placeholder="Nom, spécialité, établissement..."/>
+        <input type="text" className="form-control" name="recherche" value="" placeholder="Nom, spécialité, établissement..."/>
         <div className="input-group-prepend">
           <Button className="btn-Search">Recherce</Button>
         </div>
