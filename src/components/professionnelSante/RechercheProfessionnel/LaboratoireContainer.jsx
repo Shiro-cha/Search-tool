@@ -5,12 +5,12 @@ function LaboratoireContainer() {
     <div className="container">
         <Box className="shadow w-90">
           <div className="row">
-            <Box>
+            <div className="col-sm-6">
             Details laboratoire here
-            </Box>
-            <Box>
+            </div>
+            <div className="col-sm-6">
             Details Disponibilité here
-            </Box>
+            </div>
           </div>
         </Box>
     </div>
