@@ -1,8 +1,19 @@
+import Box from "@mui/material/Box"
+
 function LaboratoireContainer() {
   return (
-    <>
-    Laboratoire container herer
-    </>
+    <div className="container">
+        <Box className="shadow w-90">
+          <div className="row">
+            <Box>
+            Details laboratoire here
+            </Box>
+            <Box>
+            Details Disponibilité here
+            </Box>
+          </div>
+        </Box>
+    </div>
   );
 }
 
