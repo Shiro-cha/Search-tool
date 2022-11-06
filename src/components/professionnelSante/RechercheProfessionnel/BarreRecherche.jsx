@@ -9,7 +9,7 @@ function BarreRecherche() {
             <span className="fa fa-search"></span>
           </div>
         </div>
-        <input type="text" className="form-control" name="" value="">
+        <input type="text" className="form-control" name="" value="" />
       </div>
     </div>
   );
