@@ -13,6 +13,8 @@
 }
 .my-logo{
   color: #1d7805;
-  font-size: 23px;
+  font-size: 20px;
+  text-transform: uppercase;
   font-style: italic;
+  font-weight: bolder;
 }
