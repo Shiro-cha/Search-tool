@@ -2,6 +2,7 @@ import React , {useState,useEffect} from "react"
 import "./BarreRecherche.css"
 import Search from "@mui/icons-material/Search"
 import Button from "@mui/material/Button"
+import TextField from "@mui/material/TextField"
 import Autocomplete from '@mui/material/Autocomplete';
 
 
@@ -26,13 +27,12 @@ useEffect(()=>{
           </div>
         </div>
         <Autocomplete
-      disablePortal
-      id="combo-box-demo"
-      options={top100Films}
-      sx={{ width: 300 }}
-      renderInput={(params) => <input type="text" className="form-control" {...params} name="recherche"  placeholder="Nom, spécialité, établissement..."/>
-}
-    />
+        disablePortal
+        id="combo-box-demo"
+        options={top100Films}
+        sx={{ width: 300 }}
+        renderInput={(params) => <TextField {...params} label="Movie" />}
+      />
                 <div className="input-group-prepend">
           <Button className="btn-Search" disabled={valeurRecherche==""}>Recherce</Button>
         </div>
