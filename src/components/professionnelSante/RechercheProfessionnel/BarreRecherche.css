@@ -9,3 +9,6 @@
   background-color: #1b7895 !important;
   color:#ffffff !important;
 }
+.btn-Search[disabled]{
+  opacity: 0.5;
+}
