@@ -1,4 +1,8 @@
 import Typography from "@mui/material/Typography"
+import Menu, { MenuProps } from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import Button from '@mui/material/Button';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function FilterPar() {
   return (
@@ -7,10 +11,10 @@ function FilterPar() {
         <Typography>Filtrer par</Typography>
         <div className="navbar-nav">
         <div className="nav-item">
-        Disponibilité
+        <Button endIcon={<KeyboardArrowDownIcon />}>Disponibilité</Button>
         </div>
         <div className="nav-item">
-        Langue parlé
+        <Button endIcon={<KeyboardArrowDownIcon />}>Langue parlé</Button>
         </div>
         </div>
       </div>
