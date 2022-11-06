@@ -7,9 +7,11 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function FilterPar() {
   const [selectDisponibilte,setSelectDisponibilte] = useState(false)
+  const [selectLangue,setSelectLangue] = useState(false)
   const [anchorEl,setAnchorEl]=(null)
   function handleClick(e){
     if(e.currentTarget.id="disponibilite"){
+      setAnchorEl(null)
       if(selectDisponibilte){
         setAnchorEl(null)
       }else{
@@ -17,7 +19,13 @@ function FilterPar() {
       }
       setSelectDisponibilte(!selectDisponibilte)
     }else if(e.currentTarget.id="langue"){
-
+      setAnchorEl(null)
+      if(selectLangue){
+        setAnchorEl(null)
+      }else{
+        setAnchorEl(e.currentTarget)
+      }
+      setSelectDisponibilte(!setSelectLangue)
     }
   }
   return (
@@ -40,7 +48,18 @@ function FilterPar() {
         </Menu>
         </div>
         <div className="nav-item">
-        <Button endIcon={<KeyboardArrowDownIcon />}>Langue parlé</Button>
+        <Button endIcon={<KeyboardArrowDownIcon />} onClick={handleClick} id="langue">Langue parlé</Button>
+        <Menu
+        open={selectLangue}
+        anchorEl={anchorEl}
+        >
+        <MenuItem>
+        <Typography>Anglais</Typography>
+        </MenuItem>
+        <MenuItem>
+        <Typography>Français</Typography>
+        </MenuItem>
+        </Menu>
         </div>
         </div>
       </div>
