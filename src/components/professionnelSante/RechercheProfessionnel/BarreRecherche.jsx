@@ -25,7 +25,7 @@ useEffect(()=>{
             <Search className="icon-Search"/>
           </div>
         </div>
-        <input type="text"  className="form-control" onchange={rechercheHandler}  placeholder="Nom, spécialité, établissement"/>
+        <input type="text"  className="form-control" onChange={rechercheHandler}  placeholder="Nom, spécialité, établissement"/>
                 <div className="input-group-prepend">
           <Button className="btn-Search" disabled={valeurRecherche===""}>Recherce</Button>
         </div>
