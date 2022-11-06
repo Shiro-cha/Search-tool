@@ -9,7 +9,7 @@ function BarreRecherche() {
 
 
 function rechercheHandler(e){
-  if(e.target.value.trim()){
+  if(e.target.value.trim() || e.target.value===""){
     setValeurRecherche(e.target.value)
   }
 }
