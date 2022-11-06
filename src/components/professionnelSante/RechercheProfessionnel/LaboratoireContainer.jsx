@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box"
 import Button from "@mui/material/Button"
+import DisponibiliteSchedule from "./DisponibiliteSchedule.jsx"
 import "./LaboratoireContainer.css"
 
 
@@ -26,7 +27,7 @@ function LaboratoireContainer() {
               </div>
             </div>
             <div className="col-sm-7">
-
+              <DisponibiliteSchedule />
             </div>
           </div>
         </Box>
