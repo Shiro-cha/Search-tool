@@ -36,7 +36,7 @@ function FilterPar() {
   return (
     <div className="container-fluid">
       <div className="navbar navbar-expand bg-light mt-2" >
-        <Typography sx={{textTransfrom:"uppercase",color:"#606060"}}>Filtrer par</Typography>
+        <Typography sx={{color:"#606060"}}>{"Filtrer par".toUpperCase()}</Typography>
         <div className="navbar-nav">
         <div className="nav-item">
         <Button endIcon={<KeyboardArrowDownIcon />} onClick={handleClick} id="disponibilite">Disponibilité</Button>
