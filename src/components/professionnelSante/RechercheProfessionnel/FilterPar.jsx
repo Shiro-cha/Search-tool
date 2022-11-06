@@ -35,7 +35,7 @@ function FilterPar() {
   }
   return (
     <div className="container-fluid">
-      <div className="navbar navbar-expand bg-light mt-2" onClick={hadleClose}>
+      <div className="navbar navbar-expand bg-light mt-2" >
         <Typography sx={{textTransfrom:"uppercase",color:"#606060"}}>Filtrer par</Typography>
         <div className="navbar-nav">
         <div className="nav-item">
