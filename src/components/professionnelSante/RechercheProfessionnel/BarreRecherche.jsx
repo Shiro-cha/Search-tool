@@ -2,8 +2,7 @@ import React , {useState,useEffect} from "react"
 import "./BarreRecherche.css"
 import Search from "@mui/icons-material/Search"
 import Button from "@mui/material/Button"
-import TextField from "@mui/material/TextField"
-import Autocomplete from '@mui/material/Autocomplete';
+
 
 
 function BarreRecherche() {
