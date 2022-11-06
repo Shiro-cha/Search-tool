@@ -36,7 +36,7 @@ function FilterPar() {
   }
   return (
     <div className="container-fluid">
-      <div className="navbar navbar-expand bg-light mt-2 shadow" >
+      <div className="navbar navbar-expand bg-light mt-2 shadow sticky-top" >
         <Typography sx={{color:"#d3d3d3",fontWeight:"bold"}}>{"Filtrer par |".toUpperCase()}</Typography>
         <div className="navbar-nav">
         <div className="nav-item">
