@@ -15,7 +15,7 @@ function LaboratoireContainer() {
               <div className="col-sm-6">
               info laboratoire here
               </div>
-              <div className="col-sm-12">
+              <div className="col-sm-8">
               <Button variant="contained" sx={{width:"100%"}}>Prendre rendez-vous</Button>
               </div>
               </div>
