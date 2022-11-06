@@ -1,4 +1,5 @@
 import "./BarreRecherche.css"
+import Search from "@mui/icons-material/Search"
 
 function BarreRecherche() {
   return (
@@ -6,7 +7,7 @@ function BarreRecherche() {
       <div className="input-group">
         <div className="input-group-prepend">
           <div className="input-group-text">
-            <span className="fa fa-search"></span>
+            <Search />
           </div>
         </div>
         <input type="text" className="form-control" name="" value="" />
