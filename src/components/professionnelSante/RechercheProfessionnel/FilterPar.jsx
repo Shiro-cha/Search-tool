@@ -25,12 +25,17 @@ function FilterPar() {
       }else{
         setAnchorEl(e.currentTarget)
       }
-      setSelectDisponibilte(!setSelectLangue)
+      setSelectLangue(!setSelectLangue)
     }
+  }
+  function hadleClose(){
+    setAnchorEl(null)
+    setSelectDisponibilte(false)
+    setSelectLangue(false)
   }
   return (
     <div className="container-fluid">
-      <div className="navbar navbar-expand bg-light mt-2">
+      <div className="navbar navbar-expand bg-light mt-2" onClick={hadleClose}>
         <Typography sx={{textTransfrom:"uppercase",color:"#606060"}}>Filtrer par</Typography>
         <div className="navbar-nav">
         <div className="nav-item">
@@ -38,6 +43,7 @@ function FilterPar() {
         <Menu
         open={selectDisponibilte}
         anchorEl={anchorEl}
+        onClick={hadleClose}
         >
         <MenuItem>
         <Typography>Matin</Typography>
