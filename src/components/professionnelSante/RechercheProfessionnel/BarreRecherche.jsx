@@ -27,7 +27,7 @@ useEffect(()=>{
           </div>
         </div>
         <Autocomplete
-        disablePortal
+        
         id="combo-box-demo"
         options={top100Films}
         sx={{ width: "100%" }}
