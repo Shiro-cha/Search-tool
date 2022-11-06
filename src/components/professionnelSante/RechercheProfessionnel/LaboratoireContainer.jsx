@@ -8,12 +8,12 @@ function LaboratoireContainer() {
     <div className="container">
         <Box className="shadow w-90 p-2">
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-4">
               <div className="row">
               <div className="col-sm-2">
               MyLogo
               </div>
-              <div className="col-sm-12">
+              <div className="col-sm-10">
               <h4 className="nom-etablissement">Aphalbo laboratory</h4>
               <p className="type-etablissement">Laboratoire</p>
               <p className="address-etablissement">Lot 3TER Ambohidratrimo</p>
@@ -25,7 +25,7 @@ function LaboratoireContainer() {
               </div>
               </div>
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-8">
             Details Disponibilité here
             </div>
           </div>
