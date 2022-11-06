@@ -11,7 +11,7 @@ function BarreRecherche() {
 
 //fonction hadler pour l'event onChange input recherche
 function rechercheHandler(e){
-  if(e.target.value.trim() || e.target.value===""){
+  if(e.target.value.trim()){
     setValeurRecherche(e.target.value)
   }
 }
