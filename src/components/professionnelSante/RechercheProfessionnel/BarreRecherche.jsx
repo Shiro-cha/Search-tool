@@ -1,6 +1,7 @@
 import "./BarreRecherche.css"
 import Search from "@mui/icons-material/Search"
 import Button from "@mui/material/Button"
+import Input from "@mui/material/Input"
 
 function BarreRecherche() {
   return (
@@ -11,7 +12,7 @@ function BarreRecherche() {
             <Search className="icon-Search"/>
           </div>
         </div>
-        <input type="text" className="form-control" name="recherche" value="" placeholder="Nom, spécialité, établissement..."/>
+        <Input type="text" className="form-control" name="recherche" value="" placeholder="Nom, spécialité, établissement..."/>
         <div className="input-group-prepend">
           <Button className="btn-Search">Recherce</Button>
         </div>
