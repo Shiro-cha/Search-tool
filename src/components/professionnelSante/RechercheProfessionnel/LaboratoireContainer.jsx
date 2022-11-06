@@ -18,7 +18,7 @@ function LaboratoireContainer() {
               <p className="type-etablissement">Laboratoire</p>
               <p className="address-etablissement">Lot 3TER Ambohidratrimo</p>
               </div>
-              <div className="col-sm-12">
+              <div className="col-sm-12 text-center">
               <Button variant="contained" sx={{width:"60%",margin:"0 auto",background:"#1b7895","&:hover":{
                 background:"#1b7895"
               }}}>Prendre rendez-vous</Button>
