@@ -10,7 +10,7 @@ function FilterPar() {
   const [selectLangue,setSelectLangue] = useState(false)
   const [anchorEl,setAnchorEl]=(null)
   function handleClick(e){
-    if(e.currentTarget.id="disponibilite"){
+    if(e.currentTarget.id==="disponibilite"){
       setAnchorEl(null)
       if(selectDisponibilte){
         setAnchorEl(null)
@@ -18,7 +18,7 @@ function FilterPar() {
         setAnchorEl(e.currentTarget)
       }
       setSelectDisponibilte(!selectDisponibilte)
-    }else if(e.currentTarget.id="langue"){
+    }else if(e.currentTarget.id==="langue"){
       setAnchorEl(null)
       if(selectLangue){
         setAnchorEl(null)
