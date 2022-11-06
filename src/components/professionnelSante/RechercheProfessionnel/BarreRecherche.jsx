@@ -30,7 +30,7 @@ useEffect(()=>{
         disablePortal
         id="combo-box-demo"
         options={top100Films}
-        sx={{ width: 300 }}
+        sx={{ width: "100%" }}
         renderInput={(params) => <TextField {...params} label="Movie" />}
       />
                 <div className="input-group-prepend">
