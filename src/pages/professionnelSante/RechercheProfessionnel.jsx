@@ -10,7 +10,7 @@ function RechercheProfessionnel() {
     <Header/>
     <BarreRecherche/>
     <FilterPar/>
-    <Typography>Trouver un laboratoire et réserver en ligne<Typography/>
+    <Typography>Trouver un laboratoire et réserver en ligne</Typography>
     <LaboratoireContainer/>
     </>
   );
