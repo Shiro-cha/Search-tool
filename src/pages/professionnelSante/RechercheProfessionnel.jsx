@@ -1,8 +1,12 @@
+import Header from "../../components/Header/Header.js"
+
+
 function RechercheProfessionnel() {
   return (
-    <div className="App">
+    <>
+    <Header/>
     Page de recherche
-    </div>
+    </>
   );
 }
 

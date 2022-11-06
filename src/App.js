@@ -1,4 +1,4 @@
-import RechercheProfessionnel from "./pages/professionnels/RechercheProfessionnel"
+import RechercheProfessionnel from "./pages/professionnelSante/RechercheProfessionnel"
 
 function App() {
   return (
