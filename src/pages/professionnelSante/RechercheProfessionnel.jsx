@@ -8,12 +8,12 @@ function RechercheProfessionnel() {
   return (
     <div style={{background:"#dddddd"}}>
     <Header/>
-    <BarreRecherche/>
+    <BarreRecherche style={{background:"#ffffff"}}/>
     <FilterPar/>
     <br/><br/><br/>
     <Typography sx={{textAlign:"center",fontWeight:"bold",color:"#606060"}}>Trouver un laboratoire et réserver en ligne</Typography>
     <br/>
-    <LaboratoireContainer/>
+    <LaboratoireContainer style={{background:"#ffffff"}}/>
     </div>
   );
 }
