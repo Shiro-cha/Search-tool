@@ -1,17 +1,43 @@
+import React , {useState} from "react"
 import Typography from "@mui/material/Typography"
-import Menu, { MenuProps } from '@mui/material/Menu';
+import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Button from '@mui/material/Button';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function FilterPar() {
+  const [selectDisponibilte,setSelectDisponibilte] = useState(false)
+  const [anchorEl,setAnchorEl]=(null)
+  function handleClick(e){
+    if(e.currentTarget.id="disponibilite"){
+      if(selectDisponibilte){
+        setAnchorEl(null)
+      }else{
+        setAnchorEl(e.currentTarget)
+      }
+      setSelectDisponibilte(!selectDisponibilte)
+    }else if(e.currentTarget.id="langue"){
+
+    }
+  }
   return (
     <div className="container-fluid">
       <div className="navbar navbar-expand bg-light mt-2">
         <Typography>Filtrer par</Typography>
         <div className="navbar-nav">
         <div className="nav-item">
-        <Button endIcon={<KeyboardArrowDownIcon />}>Disponibilité</Button>
+        <Button endIcon={<KeyboardArrowDownIcon />} onClick={handleClick} id="disponibilite">Disponibilité</Button>
+        <Menu
+        open={selectDisponibilte}
+        anchorEl={anchorEl}
+        >
+        <MenuItem>
+        <Typography>Matin</Typography>
+        </MenuItem>
+        <MenuItem>
+        <Typography>Après-midi</Typography>
+        </MenuItem>
+        </Menu>
         </div>
         <div className="nav-item">
         <Button endIcon={<KeyboardArrowDownIcon />}>Langue parlé</Button>
