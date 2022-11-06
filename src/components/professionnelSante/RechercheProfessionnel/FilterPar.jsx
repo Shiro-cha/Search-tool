@@ -58,6 +58,7 @@ function FilterPar() {
         <Menu
         open={selectLangue}
         anchorEl={anchorEl}
+        onClick={hadleClose}
         >
         <MenuItem>
         <Typography>Anglais</Typography>
